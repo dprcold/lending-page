@@ -1,16 +1,16 @@
 $(document).ready(function(){
-    $('.header-burger,.crest').click(function(event){
-        $('.header-burger,.header-menu-box').toggleClass('active');
+    $('.page-header__burger,.dropdown-menu__close-icon').click(function(event){
+        $('.page-header__burger,.dropdown-menu').toggleClass('active');
     });
 
-    $('.slides_mobile').slick({
+    $('.slides-mobile').slick({
         dots: true
     
        
     });
 
     $('.purple_button').click(function(event){
-        $('.purple_button,.slides_laptop').toggleClass('active');
+        $('.purple_button,.slides-laptop').toggleClass('active');
     });
 
 
