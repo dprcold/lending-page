@@ -9,9 +9,17 @@ $(document).ready(function(){
        
     });
 
+    $('.certificate__slides').slick({
+        dots: true
+    
+       
+    });
+
     $('.purple_button').click(function(event){
         $('.purple_button,.slides-laptop').toggleClass('active');
     });
+
+    
 
 
 

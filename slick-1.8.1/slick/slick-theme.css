@@ -268,4 +268,11 @@
     opacity: .75;
    
 }
-
+.certificate__slides .slick-dots li button:before {
+    color: #6B5AF9;
+  }
+  .certificate__slides .slick-dots li.slick-active + li button:before {
+    color:#DDDDDD;
+  }
+ 
+  

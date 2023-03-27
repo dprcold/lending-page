@@ -118,13 +118,15 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
 @media (min-width:768px){
     .slick-slider{
       display: none;
 
     }
-    .certificate_slides{
-        display: flex;
+    .certificate__slides{
+        display: block;
     }
 }
 @media (min-width:1440px) and (max-width: 19200px) {
@@ -132,7 +134,7 @@
         display: none;
   
       }
-      .certificate_slides{
+      .certificate__slides{
           display: none;
       }
 }
