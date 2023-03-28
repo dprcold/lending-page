@@ -19,7 +19,17 @@ $(document).ready(function(){
         $('.purple_button,.slides-laptop').toggleClass('active');
     });
 
+    $('.button,.popup-menu__close-icon,.popup-menu__button').click(function(event){
+        $('.popup-menu,body').toggleClass('active');
+    });
+
     
+    
+    $('.header-call').on('click', function() {
+        $('html, body').animate({
+          scrollTop: $('.company').offset().top
+        }, 700);
+      });
 
 
 
