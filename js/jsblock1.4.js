@@ -12,7 +12,6 @@ $(document).ready(function(){
     $('.certificate__slides').slick({
         dots: true
     
-       
     });
 
     $('.purple_button').click(function(event){
@@ -23,8 +22,6 @@ $(document).ready(function(){
         $('.popup-menu,body').toggleClass('active');
     });
 
-    
-    
     $('.header-call').on('click', function() {
         $('html, body').animate({
           scrollTop: $('.company').offset().top
