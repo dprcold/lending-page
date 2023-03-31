@@ -1,3 +1,11 @@
+import './index.html';
+import './index.css';
+import './index.scss';
+import './slick-1.8.1/slick/slick.css';
+import './slick-1.8.1/slick/slick-theme.css';
+import './slick-1.8.1/slick/slick.min.js';
+import $ from 'jquery';
+
 $(document).ready(function(){
     $('.page-header__burger,.dropdown-menu__close-icon').click(function(event){
         $('.page-header__burger,.dropdown-menu').toggleClass('active');
@@ -31,3 +39,4 @@ $(document).ready(function(){
 
 
 });
+
